@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("Images\Screenshot_20250217-150822.jpg");
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: aqua;
+    position: fixed;
+   width: 100vw;
+   z-index: 1000;
+   text-align: center;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+a{
+    
+  text-decoration: none;
+}
+.d{
+    text-align: center;
+}
+.e{
+    font-weight: bolder;
+}
+a{
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b{
+    font-size: 70px;
+}
+img{
+    align-items: center;
+    justify-content: center;
+}
+.scroll-image{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+}
+/*When visible*/
+.scroll-image.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+.f{
+    text-align: justify;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.g{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.i{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    font-size: 33px;
+}
+.j{
+    position: relative;
+    top: 90px;
+    left: 25px;
+    font-size: 30px;
+}
+.k{
+    font-size: 47px;
+}
+.l{
+    position: relative;
+    top: 100px;
+}
+#meh{
+    transform: rotate(10deg);
+    margin: 70px;
+}
+.p{
+    text-align: justify;
+    align-items: center;
+    text-spacing-trim: space-all;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+}
+#q{
+    font-size: xx-large;
+    margin: 300px;
+}
